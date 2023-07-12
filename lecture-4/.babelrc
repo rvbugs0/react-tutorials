@@ -1,0 +1,9 @@
+// with options
+{
+    "plugins": [["transform-remove-console", { "exclude": ["error", "warn"] }]]
+}
+
+// to take out console.log statements in production, we use the following plugin
+// npm install babel-plugin-transform-remove-console
+// and create a .babelrc file specifying the options. Here it will only exclude log statements 
+//but will still keep the warn and error logs. 
